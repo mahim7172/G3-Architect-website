@@ -102,7 +102,33 @@ padding-right: 70px;
 .feature{
     color:#FF900E;
 }
-
+/* feature section style */
+.features-section{
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+.feature-content .g3 {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.feature-content .card{
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.year{
+    background-color: #FF900E;
+    color: #FFF;
+text-align: center;
+padding: 40px;
+width: 340px;
+}
+.year h2{
+    font-size: 4em;
+}
 /* facts card */
 .facts-card-container{
     display: flex;
