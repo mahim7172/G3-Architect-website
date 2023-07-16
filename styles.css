@@ -1,4 +1,100 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
-*{
+
+* {
     font-family: 'Work Sans', sans-serif;
+}
+.primary-btn{
+    width: 180px;
+    border-radius: 5px;
+height: 64px;
+flex-shrink: 0;
+color: #FFF;
+background-color: #FF900E;
+text-align: center;
+font-size: 1.25rem;
+font-weight: 600;
+
+}
+/* header style */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    gap: 40px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+
+    color: var(--dark-02, #424242);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    /* 144.444% */
+}
+
+.g3{
+    color: var(--dark-01, #131313);
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
+/* banner styles */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    color: var(--dark-01, #131313);
+font-size: 4rem;
+font-weight: 700;
+}
+.banner-peragraf{
+    color: var(--dark-03, #727272);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.banner-img{
+    padding-top: 20px;
+    width: 100%;
+}
+/* responsive styles */
+/* mobile */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav {
+        flex-direction: column;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+/* tab respons */
+@media screen and (min-width:576px) and (max-width:970px) {
+ 
+    header{
+        padding: 40px;
+    }
+    nav {
+        flex-direction: column;
+    }
 }
